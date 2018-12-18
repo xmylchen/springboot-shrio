@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/shrio-share/pom.xml" />
         <option value="$PROJECT_DIR$/shrio-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shrio-web/pom.xml" />
       </list>
     </option>
   </component>
