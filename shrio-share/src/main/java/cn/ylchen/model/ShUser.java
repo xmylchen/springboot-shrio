@@ -1,8 +1,9 @@
 package cn.ylchen.model;
 
 import java.util.Date;
+import java.util.List;
 
-public class user {
+public class ShUser {
     private int id;
     private String user_id;
     private String username;
@@ -16,6 +17,15 @@ public class user {
     private Date createTime;
     private Date updateTime;
     private Date lastLoginTime;
+    private List<ShRole> roleList;
+
+    public List<ShRole> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<ShRole> roleList) {
+        this.roleList = roleList;
+    }
 
     public int getId() {
         return id;

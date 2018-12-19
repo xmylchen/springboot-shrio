@@ -1,8 +1,9 @@
 package cn.ylchen.model;
 
 import java.util.Date;
+import java.util.List;
 
-public class role {
+public class ShRole {
     private int id;
     private String role_id;
     private String name;
@@ -10,6 +11,15 @@ public class role {
     private int statua;
     private Date createTime;
     private Date updateTime;
+    private List<ShPermission> permissionList;
+
+    public List<ShPermission> getPermissionList() {
+        return permissionList;
+    }
+
+    public void setPermissionList(List<ShPermission> permissionList) {
+        this.permissionList = permissionList;
+    }
 
     public int getId() {
         return id;

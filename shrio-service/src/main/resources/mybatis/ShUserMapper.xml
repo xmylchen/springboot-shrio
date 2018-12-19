@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ylchen.dao.userDao">
+
+    <resultMap type="ShUser" id="UserWithRolesMapper">
+        <id column="id" property="id" />
+        <result column="user_id" property="user_id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="salt" property="salt" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="sex" property="sex" />
+        <result column="age" property="age" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="last_login_time" property="lastLoginTime" />
+        <collection property="roles" ofType="ShRole">
+            <id column="id" property="id" />
+            <result column="role_id" property="role_id" />
+            <result column="role_name" property="name" />
+        </collection>
+    </resultMap>
+    <select id="get" resultType="ShUser" parameterType="string">
+        select * from user where username=#{username}
+    </select>
+    <select id="getAll" resultType="ShUser">
+        select * from user
+    </select>
+    <select id="getPaged" resultType="ShUser" parameterType="map">
+        select *
+        from user limit #{offset}, #{pageSize}
+    </select>
+    <select id="getCount" resultType="int" parameterType="map">
+        select
+               count(id) from user
+    </select>
+
+    <insert id="create" parameterType="ShUser">
+        insert into user
+                (id,user_id,username, password,
+                 salt,email,phone, sex, age,
+                 status,create_time,update_time,
+                 last_login_time)
+        values (#{id}, #{user_id}, #{username}, #{password}, #{salt},
+                #{email}, #{phone}, #{sex}, #{age},
+                #{status},
+                #{createTime}, #{updateTime}, #{lastLoginTime})
+    </insert>
+
+
+    <update id="update" parameterType="ShUser">
+        update user
+        <set>
+            <if test="password != null ">password=#{password},</if>
+            <if test="updateTime != null">update_time=#{updateTime},</if>
+        </set>
+        where username=#{username}
+    </update>
+
+
+    <delete id="delete">
+        delete from user where
+                username =
+                #{username}
+    </delete>
+</mapper>
