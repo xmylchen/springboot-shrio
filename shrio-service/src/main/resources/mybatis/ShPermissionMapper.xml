@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ylchen.dao.permissionDao">
+
+    <resultMap type="ShPermission" id="PermissionWithRolesMapper">
+        <id column="id" property="id" />
+        <result column="permission_id" property="permission_id" />
+        <result column="name" property="name" />
+        <result column="description" property="description" />
+        <result column="url" property="url" />
+        <result column="perms" property="perms" />
+        <result column="parent_id" property="parent_id" />
+        <result column="type" property="type" />
+        <result column="order_num" property="order_num" />
+        <result column="icon" property="icon" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+    <select id="getAll" resultMap="PermissionWithRolesMapper">
+        select *
+        from permission
+    </select>
+    <select id="getPaged" resultType="ShPermission" parameterType="map">
+        select *
+        from permission limit #{offset}, #{pageSize}
+    </select>
+    <select id="getCount" resultType="int" parameterType="map">
+        select
+               count(id) from permission
+    </select>
+    <insert id="create" parameterType="ShPermission">
+        insert into permission
+                (id,permission_id,name, description,
+                 url,perms,parent_id,type,order_num,icon,status,create_time,update_time)
+        values (#{id}, #{permission_id}, #{name}, #{description},
+                #{url},#{perms},#{parent_id},#{type},#{order_num},#{icon},#{status},
+                #{createTime}, #{updateTime})
+    </insert>
+    <update id="update" parameterType="ShPermission">
+        update permission
+        <set>
+            <if test="name != null ">name=#{name},</if>
+            <if test="status != null">status=#{status},</if>
+        </set>
+        where permission_id=#{permission_id}
+    </update>
+    <delete id="delete">
+        delete from permisson where
+                permission_id =
+                #{permission_id}
+    </delete>
+    <select id="selectPermissionByUserId" parameterType="String" resultType="string">
+
+        select distinct sp.`name` from permission sp
+                                           inner join role_permission srp on sp.permission_id=srp.permission_id
+                                           inner join user_role sur on sur.role_id=srp.role_id
+        where sur.user_id=#{userId}
+    </select>
+</mapper>

@@ -1,7 +1,7 @@
 spring:
     datasource:
         name: test
-        url: jdbc:mysql://localhost:3306/shiro?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8
+        url: jdbc:mysql://localhost:3306/shiro?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
         username: root
         password: chenyong
         # 使用druid数据源

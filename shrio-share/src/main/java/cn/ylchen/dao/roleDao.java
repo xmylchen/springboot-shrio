@@ -4,10 +4,11 @@ import cn.ylchen.model.ShRole;
 import cn.ylchen.model.ShRoleAndPermission;
 import cn.ylchen.model.ShUser;
 import cn.ylchen.model.ShUserAndRole;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 import java.util.Map;
-
+@Mapper
 public interface roleDao {
     ShRole get(String id);
 
@@ -46,4 +47,5 @@ public interface roleDao {
     List<ShRoleAndPermission> getRoleAndPerimissionByRoleId(String roleId);
 
     List<ShRoleAndPermission> getRoleAndPerimissionByPermissionId(String permissionId);
+
 }

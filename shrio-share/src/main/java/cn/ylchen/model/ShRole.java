@@ -8,7 +8,7 @@ public class ShRole {
     private String role_id;
     private String name;
     private String description;
-    private int statua;
+    private int status;
     private Date createTime;
     private Date updateTime;
     private List<ShPermission> permissionList;
@@ -53,12 +53,12 @@ public class ShRole {
         this.description = description;
     }
 
-    public int getStatua() {
-        return statua;
+    public int getStatus() {
+        return status;
     }
 
-    public void setStatua(int statua) {
-        this.statua = statua;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public Date getCreateTime() {

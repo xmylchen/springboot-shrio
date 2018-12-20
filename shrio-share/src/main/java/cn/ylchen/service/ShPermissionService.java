@@ -1,13 +1,11 @@
-package cn.ylchen.dao;
+package cn.ylchen.service;
 
 import cn.ylchen.model.ShPermission;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 import java.util.Map;
-@Mapper
-public interface permissionDao {
 
+public interface ShPermissionService {
     ShPermission get(String id);
 
     List<ShPermission> getAll();
@@ -18,7 +16,7 @@ public interface permissionDao {
 
     int create(ShPermission user);
 
-    int delete(String id);
+    int delete(String username);
 
     int update(ShPermission user);
 
