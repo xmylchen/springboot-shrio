@@ -55,7 +55,7 @@ public class ShrioServiceApplicationTests {
         permission.setPermission_id(HashHelper.generateId());
         permission.setName("role_dfd");
         permission.setStatus(1);
-        List<String> te = permissionService.selectPermissionByUserId("8cdc1d0b43394329b601dab75ade79a2");
+        List<ShPermission> te = permissionService.selectPermissionByUserId("8cdc1d0b43394329b601dab75ade79a2");
         System.out.println(te);
     }
 

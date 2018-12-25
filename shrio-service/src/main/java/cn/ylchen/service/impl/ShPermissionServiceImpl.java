@@ -52,7 +52,7 @@ public class ShPermissionServiceImpl implements ShPermissionService {
     }
 
     @Override
-    public List<String> selectPermissionByUserId(String userId) {
+    public List<ShPermission> selectPermissionByUserId(String userId) {
         return permissionDao.selectPermissionByUserId(userId);
     }
 }

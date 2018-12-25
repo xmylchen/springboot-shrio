@@ -1,13 +1,18 @@
 package cn.ylchen.web.config;
 
+import cn.ylchen.model.ShPermission;
+import cn.ylchen.service.ShPermissionService;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,6 +23,8 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
 
+    @Autowired
+    private ShPermissionService permissionService;
     /**
      * 凭证匹配器
      *
@@ -79,6 +86,13 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/login", "anon");
         filterChainDefinitionMap.put("/captcha.jpg", "anon");
         filterChainDefinitionMap.put("/favicon.ico", "anon");
+        List<ShPermission> permissionList = permissionService.getAll();
+        for (ShPermission permission : permissionList){
+            if (StringUtils.isNotEmpty(permission.getUrl())){
+                String resource = "perms[" + permission.getUrl()+ "]";
+                filterChainDefinitionMap.put(permission.getUrl(),resource);
+            }
+        }
         filterChainDefinitionMap.put("/**", "authc");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);

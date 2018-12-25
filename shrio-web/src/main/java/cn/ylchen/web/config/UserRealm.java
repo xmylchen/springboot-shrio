@@ -1,5 +1,6 @@
 package cn.ylchen.web.config;
 
+import cn.ylchen.model.ShPermission;
 import cn.ylchen.model.ShUser;
 import cn.ylchen.service.ShPermissionService;
 import cn.ylchen.service.ShRoleService;
@@ -29,10 +30,12 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         ShUser shUser = (ShUser) principals.getPrimaryPrincipal();
-        List<String> sysPermissions = permissionService.selectPermissionByUserId(shUser.getUser_id());
+        List<ShPermission> sysPermissions = permissionService.selectPermissionByUserId(shUser.getUser_id());
 
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        info.addStringPermissions(sysPermissions);
+        for (ShPermission permission : sysPermissions){
+            info.addStringPermission(permission.getUrl());
+        }
         LOGGER.info("doGetAuthorizationInfo");
         return info;
     }

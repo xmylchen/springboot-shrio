@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shrio-service/shrio-service.iml" filepath="$PROJECT_DIR$/shrio-service/shrio-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shrio-service/shrio-service.iml" filepath="$PROJECT_DIR$/shrio-service/shrio-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shrio-share/shrio-share.iml" filepath="$PROJECT_DIR$/shrio-share/shrio-share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shrio-share/shrio-share.iml" filepath="$PROJECT_DIR$/shrio-share/shrio-share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shrio-web/shrio-web.iml" filepath="$PROJECT_DIR$/shrio-web/shrio-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shrio-web/shrio-web.iml" filepath="$PROJECT_DIR$/shrio-web/shrio-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shrio.iml" filepath="$PROJECT_DIR$/springboot-shrio.iml" />
     </modules>

@@ -51,9 +51,9 @@
                 permission_id =
                 #{permission_id}
     </delete>
-    <select id="selectPermissionByUserId" parameterType="String" resultType="string">
+    <select id="selectPermissionByUserId" parameterType="String" resultMap="PermissionWithRolesMapper">
 
-        select distinct sp.`name` from permission sp
+        select sp.* from permission sp
                                            inner join role_permission srp on sp.permission_id=srp.permission_id
                                            inner join user_role sur on sur.role_id=srp.role_id
         where sur.user_id=#{userId}

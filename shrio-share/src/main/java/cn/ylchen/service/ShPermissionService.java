@@ -20,5 +20,5 @@ public interface ShPermissionService {
 
     int update(ShPermission user);
 
-    List<String> selectPermissionByUserId(String userId);
+    List<ShPermission> selectPermissionByUserId(String userId);
 }
