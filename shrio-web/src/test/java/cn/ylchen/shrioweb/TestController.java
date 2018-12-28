@@ -1,4 +1,4 @@
-package cn.ylchen.web.api;
+package cn.ylchen.shrioweb;
 
 import cn.ylchen.model.ShRole;
 import cn.ylchen.model.ShUser;

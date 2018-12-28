@@ -86,6 +86,8 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/login", "anon");
         filterChainDefinitionMap.put("/captcha.jpg", "anon");
         filterChainDefinitionMap.put("/favicon.ico", "anon");
+        filterChainDefinitionMap.put("/authorize", "anon");
+        filterChainDefinitionMap.put("/userInfo", "anon");
         List<ShPermission> permissionList = permissionService.getAll();
         for (ShPermission permission : permissionList){
             if (StringUtils.isNotEmpty(permission.getUrl())){
@@ -93,7 +95,7 @@ public class ShiroConfig {
                 filterChainDefinitionMap.put(permission.getUrl(),resource);
             }
         }
-        filterChainDefinitionMap.put("/**", "authc");
+        filterChainDefinitionMap.put("/**", "user");
 
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         return shiroFilterFactoryBean;

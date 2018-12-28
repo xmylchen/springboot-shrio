@@ -23,3 +23,5 @@ spring:
 mybatis:
     mapper-locations: classpath:mybatis/*Mapper.xml
     type-aliases-package: cn.ylchen.model
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

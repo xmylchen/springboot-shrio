@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ylchen.dao.ClientServiceDao">
+
+    <resultMap type="oauthClient" id="oauthClientMapper">
+        <id column="id" property="id" />
+        <result column="client_name" property="clientName" />
+        <result column="client_id" property="clientId" />
+        <result column="client_secret" property="clientSecret" />
+    </resultMap>
+    <select id="findByClientId" resultMap="oauthClientMapper" parameterType="String">
+        select *
+        from oauth2_client where client_id=#{clientId}
+    </select>
+    <select id="findByClientSecret" resultMap="oauthClientMapper" parameterType="String">
+        select *
+        from oauth2_client where client_secret=#{client_secret}
+    </select>
+</mapper>

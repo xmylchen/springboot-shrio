@@ -35,6 +35,8 @@ public class UserRealm extends AuthorizingRealm {
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         for (ShPermission permission : sysPermissions){
             info.addStringPermission(permission.getUrl());
+            //添加角色授权信息
+            //info.addRole();
         }
         LOGGER.info("doGetAuthorizationInfo");
         return info;
@@ -42,12 +44,26 @@ public class UserRealm extends AuthorizingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
-        UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
+        /*UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         ShUser sysUser = userService.get(token.getUsername());
         if (sysUser == null) {
             return null;
         }
         LOGGER.info("doGetAuthenticationInfo");
-        return new SimpleAuthenticationInfo(sysUser, sysUser.getPassword().toCharArray(), ByteSource.Util.bytes(sysUser.getSalt()), getName());
+        return new SimpleAuthenticationInfo(sysUser, sysUser.getPassword().toCharArray(), ByteSource.Util.bytes(sysUser.getSalt()), getName());*/
+        String username = (String) authenticationToken.getPrincipal();
+        ShUser user = userService.get(username);
+
+        if(null==user) {
+            throw new UnknownAccountException();
+        }
+
+        SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
+                user.getUsername(),
+                user.getPassword(),
+                ByteSource.Util.bytes(user.getSalt()),
+                getName()
+        );
+        return authenticationInfo;
     }
 }
