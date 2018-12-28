@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ylchen.dao.oauthTokenDao">
+
+    <resultMap type="oauthToken" id="oauthTokenMapper">
+        <result column="token" property="token" />
+        <result column="username" property="username" />
+    </resultMap>
+    <insert id="addAccessToken" parameterType="oauthToken">
+        insert into oauth2_token
+                (token,username)
+        values (#{token}, #{username})
+    </insert>
+    <select id="checkAccessToken" resultType="java.lang.Boolean" parameterType="string">
+        select * from oauth2_token where token=#{token}
+    </select>
+    <select id="getUsernameByAccessToken" resultType="java.lang.String" parameterType="string">
+        select t.username from oauth2_token t where token=#{token}
+    </select>
+</mapper>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shiro-client/shiro-client.iml" filepath="$PROJECT_DIR$/shiro-client/shiro-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/shrio-service/shrio-service.iml" filepath="$PROJECT_DIR$/shrio-service/shrio-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shrio-share/shrio-share.iml" filepath="$PROJECT_DIR$/shrio-share/shrio-share.iml" />
       <module fileurl="file://$PROJECT_DIR$/shrio-web/shrio-web.iml" filepath="$PROJECT_DIR$/shrio-web/shrio-web.iml" />

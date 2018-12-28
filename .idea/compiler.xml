@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shiro-client" />
         <module name="shrio-service" />
         <module name="shrio-share" />
         <module name="shrio-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="shiro-client" target="1.8" />
       <module name="shrio-service" target="1.8" />
       <module name="shrio-share" target="1.8" />
       <module name="shrio-web" target="1.8" />

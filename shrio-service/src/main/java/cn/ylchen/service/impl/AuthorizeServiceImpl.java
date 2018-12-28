@@ -1,5 +1,9 @@
 package cn.ylchen.service.impl;
 
+import cn.ylchen.dao.oauthCodeDao;
+import cn.ylchen.dao.oauthTokenDao;
+import cn.ylchen.model.oauthCode;
+import cn.ylchen.model.oauthToken;
 import cn.ylchen.service.AuthorizeService;
 import cn.ylchen.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,36 +19,46 @@ public class AuthorizeServiceImpl implements AuthorizeService {
 
     @Resource
     private ClientService clientService;
+    @Resource
+    private oauthCodeDao oauthCodeDao;
+    @Resource
+    private oauthTokenDao oauthTokenDao;
 
 
     @Override
     public void addAuthCode(String authCode, String username) {
-        cache.put(authCode, username);
+        oauthCode oauthCode = new oauthCode();
+        oauthCode.setCode(authCode);
+        oauthCode.setUsername(username);
+        oauthCodeDao.addAuthCode(oauthCode);
     }
 
     @Override
     public void addAccessToken(String accessToken, String username) {
-        cache.put(accessToken, username);
+        oauthToken oauthToken = new oauthToken();
+        oauthToken.setToken(accessToken);
+        oauthToken.setUsername(username);
+        oauthTokenDao.addAccessToken(oauthToken);
     }
 
     @Override
     public String getUsernameByAuthCode(String authCode) {
-        return (String)cache.get(authCode).get();
+        return oauthCodeDao.getUsernameByAuthCode(authCode);
     }
 
     @Override
     public String getUsernameByAccessToken(String accessToken) {
-        return (String)cache.get(accessToken).get();
+       return oauthTokenDao.getUsernameByAccessToken(accessToken);
     }
 
     @Override
     public boolean checkAuthCode(String authCode) {
-        return cache.get(authCode) != null;
+       return oauthCodeDao.checkAuthCode(authCode);
     }
 
     @Override
     public boolean checkAccessToken(String accessToken) {
-        return cache.get(accessToken) != null;
+        return oauthTokenDao.checkAccessToken(accessToken);
     }
 
     @Override

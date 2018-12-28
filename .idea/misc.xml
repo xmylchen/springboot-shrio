@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/shrio-share/pom.xml" />
         <option value="$PROJECT_DIR$/shrio-service/pom.xml" />
         <option value="$PROJECT_DIR$/shrio-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

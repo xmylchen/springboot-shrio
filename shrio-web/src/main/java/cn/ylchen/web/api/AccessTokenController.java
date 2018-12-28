@@ -17,6 +17,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -38,7 +39,7 @@ public class AccessTokenController {
     @Autowired
     private AuthorizeService authorizeService;
 
-    @RequestMapping("/accessToken")
+    @RequestMapping(value ="/accessToken",method = RequestMethod.POST)
     public HttpEntity token(HttpServletRequest request) throws OAuthSystemException {
         try {
             // 构建Oauth请求
@@ -66,7 +67,7 @@ public class AccessTokenController {
 
             // 检查验证类型，此处只检查AUTHORIZATION类型，其他的还有PASSWORD或者REFRESH_TOKEN
             if(oAuthTokenRequest.getParam(OAuth.OAUTH_GRANT_TYPE).equals(GrantType.AUTHORIZATION_CODE.toString())){
-                if(!authorizeService.checkAuthCode(authCode)){
+                if(authorizeService.checkAuthCode(authCode)){
                     OAuthResponse response = OAuthASResponse.errorResponse(HttpServletResponse.SC_BAD_REQUEST)
                             .setError(OAuthError.TokenResponse.INVALID_GRANT)
                             .setErrorDescription("auth_code错误！")
@@ -83,7 +84,7 @@ public class AccessTokenController {
             // 生成OAuth响应
             OAuthResponse response = OAuthASResponse.tokenResponse(HttpServletResponse.SC_OK)
                     .setAccessToken(accessToken).setExpiresIn(String.valueOf(authorizeService.getExpireIn()))
-                    .buildJSONMessage();
+                    .buildBodyMessage();
 
             return new ResponseEntity(response.getBody(),HttpStatus.valueOf(response.getResponseStatus()));
         } catch(OAuthProblemException e) {

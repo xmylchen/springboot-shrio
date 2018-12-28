@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.ylchen.dao.oauthCodeDao">
+
+    <resultMap type="oauthCode" id="oauthCodeMapper">
+        <result column="code" property="code" />
+        <result column="username" property="username" />
+    </resultMap>
+    <insert id="addAuthCode" parameterType="oauthCode">
+        insert into oauth2_code
+                (code,username)
+        values (#{code}, #{username})
+    </insert>
+    <select id="checkAuthCode" resultType="java.lang.Boolean" parameterType="string">
+        select * from oauth2_code where code=#{code}
+    </select>
+    <select id="getUsernameByAuthCode" resultType="java.lang.String" parameterType="string">
+        select c.username from oauth2_code c where code=#{code}
+    </select>
+</mapper>
