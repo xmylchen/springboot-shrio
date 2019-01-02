@@ -84,7 +84,7 @@ public class AccessTokenController {
             // 生成OAuth响应
             OAuthResponse response = OAuthASResponse.tokenResponse(HttpServletResponse.SC_OK)
                     .setAccessToken(accessToken).setExpiresIn(String.valueOf(authorizeService.getExpireIn()))
-                    .buildBodyMessage();
+                    .buildJSONMessage();
 
             return new ResponseEntity(response.getBody(),HttpStatus.valueOf(response.getResponseStatus()));
         } catch(OAuthProblemException e) {

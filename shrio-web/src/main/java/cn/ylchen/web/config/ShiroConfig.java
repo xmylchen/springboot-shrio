@@ -86,8 +86,9 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/login", "anon");
         filterChainDefinitionMap.put("/captcha.jpg", "anon");
         filterChainDefinitionMap.put("/favicon.ico", "anon");
-        filterChainDefinitionMap.put("/authorize", "anon");
+        filterChainDefinitionMap.put("/oauth-server/authorize", "anon");
         filterChainDefinitionMap.put("/userInfo", "anon");
+        filterChainDefinitionMap.put("/oauth-server/accessToken","anon");
         List<ShPermission> permissionList = permissionService.getAll();
         for (ShPermission permission : permissionList){
             if (StringUtils.isNotEmpty(permission.getUrl())){

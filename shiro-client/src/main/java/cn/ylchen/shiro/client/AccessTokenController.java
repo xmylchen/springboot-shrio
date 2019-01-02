@@ -69,7 +69,7 @@ public class AccessTokenController {
 
             System.out.println("==> 拿到access_token然后重定向到 客户端 /oauth-client/getUserInfo服务,传过去accessToken");
 
-            return"redirect:/oauth-client/getUserInfo?accessToken="+accessToken;
+            return accessToken;
 
         } catch (OAuthSystemException e) {
             e.printStackTrace();

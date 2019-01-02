@@ -28,6 +28,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URI;
@@ -80,7 +82,7 @@ public class AuthorizeController {
                 if(!login(subject, request)) {
                     //登录失败时跳转到登陆页面
                     model.addAttribute("client", clientService.findByClientId(oauthRequest.getClientId()));
-                    return "oauth2login";
+                    return "login";
                 }
             }
             String username = (String) subject.getPrincipal();
