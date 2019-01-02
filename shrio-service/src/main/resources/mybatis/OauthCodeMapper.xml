@@ -13,7 +13,7 @@
         values (#{code}, #{username})
     </insert>
     <select id="checkAuthCode" resultType="java.lang.Boolean" parameterType="string">
-        select * from oauth2_code where code=#{code}
+        select  count(*) from oauth2_code where code=#{code}
     </select>
     <select id="getUsernameByAuthCode" resultType="java.lang.String" parameterType="string">
         select c.username from oauth2_code c where code=#{code}

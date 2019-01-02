@@ -17,6 +17,7 @@
       <module name="shrio-service" target="1.8" />
       <module name="shrio-share" target="1.8" />
       <module name="shrio-web" target="1.8" />
+      <module name="springboot-shrio" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

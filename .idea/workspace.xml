@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf68c132-a7f7-41fc-b32e-f1c660ac0cc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java" afterDir="false" />
+    <list default="true" id="06e99257-82d0-4949-8b92-b3a71a290ea3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_resourceserver_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ylchen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_oltu_oauth2_resourceserver_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-shrio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-shrio.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/shrio-share/target/" />
     <ignored path="$PROJECT_DIR$/shrio-service/target/" />
     <ignored path="$PROJECT_DIR$/shrio-web/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shrio-share/target/" />
     <ignored path="$PROJECT_DIR$/shiro-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,202 +30,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1223499019">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="XML" value="1" />
-          <entry key="java" value="3" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="425" />
-          <entry key="txt" value="10" />
-          <entry key="xml" value="90" />
-          <entry key="yml" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="425" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="XML" value="90" />
-          <entry key="YAML" value="21" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-1087666704">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="39" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="217" />
-          <entry key="jsp" value="6" />
-          <entry key="pom" value="5" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="65" />
-          <entry key="yml" value="12" />
+          <entry key="java" value="4" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="39" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="217" />
-          <entry key="JSP" value="6" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="70" />
-          <entry key="YAML" value="12" />
+          <entry key="JAVA" value="4" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="21" />
-          <entry key="java" value="3129" />
-          <entry key="properties" value="10" />
-          <entry key="txt" value="42" />
-          <entry key="xml" value="1060" />
-          <entry key="yml" value="184" />
+          <entry key="java" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3129" />
-          <entry key="PLAIN_TEXT" value="63" />
-          <entry key="Properties" value="10" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="1059" />
-          <entry key="YAML" value="184" />
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java">
+        <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="285">
+              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/AuthorizeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/message/OAuthResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="162" column="41" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/utils/JSONUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/parameters/JSONBodyParametersApplier.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/exception/OAuthSystemException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1699#1700#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/org/json/JSONStringer.java">
+        <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4071#4078#0" expanded="true" />
-                <element signature="e#4281#4282#0" expanded="true" />
-                <element signature="e#4310#4311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="287">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>object</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -222,56 +108,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/util/ShiroMd5Util.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ShRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/ShRoleService.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/ShPermission.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/ShRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/ShRole.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/roleDao.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/boot/ShrioWebApplication.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/IndexController.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/LoginController.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ShPermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/ShPermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/ShPermissionService.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/permissionDao.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/ShPermission.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/test/java/cn/ylchen/shrioservice/ShrioServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/TestController.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/oauthClient.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/AuthorizeService.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/ClientService.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/ClientService.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ClientServiceMapper.xml" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/ClientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/UserInfoController.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/ClientServiceDao.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/resources/META-INF/resources/WEB-INF/jsp/oauth2login.jsp" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ShUserMapper.xml" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/UserRealm.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/oauthCode.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthCode.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/oauthToken.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthCodeDao.java" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthTokenMapper.xml" />
-        <option value="$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/AuthorizeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthTokenDao.java" />
         <option value="$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml" />
-        <option value="$PROJECT_DIR$/shiro-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/ShiroClientApplication.java" />
-        <option value="$PROJECT_DIR$/shiro-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AuthCodeController.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shrio-web/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro-client/pom.xml" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java" />
-        <option value="$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java" />
         <option value="$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java" />
       </list>
     </option>
@@ -282,41 +119,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/maven/apache-maven-3.5.0" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shrio-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shrio-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
     <option name="height" value="1043" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,68 +144,25 @@
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -396,79 +170,39 @@
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ylchen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
+              <item name="shrio-share" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-shrio" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-shrio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ylchen" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546396332584" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dubbo/usercenter-api" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3448276" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="cn.ylchen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\note\springboot-shrio\shrio-web\WEB-INF" />
-      <recent name="C:\note\springboot-shrio\shrio-share\src\main\java\cn\ylchen" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.ylchen.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\note\springboot-shrio\shrio-web\src\main\resources\META-INF\resources\WEB-INF\jsp" />
-      <recent name="C:\note\springboot-shrio\shrio-web\src\test" />
-      <recent name="C:\note\springboot-shrio\shrio-web\src\main\resources\META-INF\resources" />
-      <recent name="C:\note\springboot-shrio\shrio-web\src\main\WEB-INF" />
-      <recent name="C:\note\springboot-shrio\shrio-web\src\main\webapp" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546397561879" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -482,55 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShrioWebApplication (1)">
-    <configuration name="ShrioServiceApplicationTests.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shrio-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ylchen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ylchen.shrioservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.ylchen.shrioservice.ShrioServiceApplicationTests" />
-      <option name="METHOD_NAME" value="createTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShrioServiceApplicationTests.permissTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shrio-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ylchen.shrioservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ylchen.shrioservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.ylchen.shrioservice.ShrioServiceApplicationTests" />
-      <option name="METHOD_NAME" value="permissTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShrioServiceApplicationTests.roleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shrio-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ylchen.shrioservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ylchen.shrioservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.ylchen.shrioservice.ShrioServiceApplicationTests" />
-      <option name="METHOD_NAME" value="roleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ShrioWebApplication">
     <configuration name="ShiroClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shiro-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ylchen.shiro.client.ShiroClientApplication" />
@@ -545,180 +231,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShrioShareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shrio-share" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ylchen.shrioshare.ShrioShareApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShrioWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ShrioWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shrio-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ylchen.web.boot.ShrioWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShrioWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shrio-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ylchen.ShrioWebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ShrioShareApplication" />
       <item itemvalue="Spring Boot.ShrioServiceApplication" />
       <item itemvalue="Spring Boot.ShrioWebApplication" />
-      <item itemvalue="Spring Boot.ShrioWebApplication (1)" />
-      <item itemvalue="JUnit.ShrioServiceApplicationTests.createTest" />
-      <item itemvalue="JUnit.ShrioServiceApplicationTests.permissTest" />
-      <item itemvalue="JUnit.ShrioServiceApplicationTests.roleTest" />
       <item itemvalue="Spring Boot.ShiroClientApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ShrioServiceApplicationTests.permissTest" />
-        <item itemvalue="JUnit.ShrioServiceApplicationTests.roleTest" />
-        <item itemvalue="JUnit.ShrioServiceApplicationTests.createTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf68c132-a7f7-41fc-b32e-f1c660ac0cc4" name="Default Changelist" comment="" />
-      <created>1544941050133</created>
+      <changelist id="06e99257-82d0-4949-8b92-b3a71a290ea3" name="Default Changelist" comment="" />
+      <created>1546396793953</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544941050133</updated>
-      <workItem from="1544941059817" duration="3168000" />
-      <workItem from="1545135709523" duration="2581000" />
-      <workItem from="1545183304703" duration="22459000" />
-      <workItem from="1545357501288" duration="2136000" />
-      <workItem from="1545702298036" duration="17330000" />
-      <workItem from="1545979008799" duration="1149000" />
-      <workItem from="1545980168062" duration="435000" />
-      <workItem from="1545980764475" duration="373000" />
-      <workItem from="1545981208971" duration="19773000" />
+      <updated>1546396793953</updated>
+      <workItem from="1546396796745" duration="716000" />
     </task>
-    <task id="LOCAL-00001" summary="add pom">
-      <created>1544943314838</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1544943314838</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add pom">
-      <created>1545138227899</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1545138227899</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add mybatis">
-      <created>1545207962887</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1545207962887</updated>
-    </task>
-    <task id="LOCAL-00004" summary="验证完成初步">
-      <created>1545291465212</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1545291465212</updated>
-    </task>
-    <task id="LOCAL-00005" summary="添加url控制">
-      <created>1545720056152</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1545720056152</updated>
-    </task>
-    <task id="LOCAL-00006" summary="oauth2">
-      <created>1545984296629</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1545984296632</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 13h 52m 42s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 13h 53m 13s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 13h 53m 48s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 13h 54m 13s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_roleTest - 2018.12.20 at 13h 57m 08s.xml">
-      <configuration name="ShrioServiceApplicationTests.roleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_roleTest - 2018.12.20 at 13h 57m 29s.xml">
-      <configuration name="ShrioServiceApplicationTests.roleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_roleTest - 2018.12.20 at 13h 58m 58s.xml">
-      <configuration name="ShrioServiceApplicationTests.roleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_roleTest - 2018.12.20 at 13h 59m 19s.xml">
-      <configuration name="ShrioServiceApplicationTests.roleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 14h 13m 30s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShrioServiceApplicationTests_permissTest - 2018.12.20 at 14h 14m 25s.xml">
-      <configuration name="ShrioServiceApplicationTests.permissTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69404000" />
+    <option name="totallyTimeSpent" value="716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2926435" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3791431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.519573" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49288255" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6370107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3291815" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3291815" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,591 +305,51 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add pom" />
-    <MESSAGE value="add mybatis" />
-    <MESSAGE value="验证完成初步" />
-    <MESSAGE value="添加url控制" />
-    <MESSAGE value="oauth2" />
-    <option name="LAST_COMMIT_MESSAGE" value="oauth2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-service/src/test/java/cn/ylchen/shrioservice/ShrioServiceApplicationTests.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java</url>
-          <line>124</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AuthCodeController.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/client/response/OAuthJSONAccessTokenResponse.class</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/utils/JSONUtils.class</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java</url>
-          <line>42</line>
-          <properties class="cn.ylchen.web.api.AccessTokenController" method="token">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/shiro.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/ShiroClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/ClientServiceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthCodeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/roleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/service/AuthorizeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ClientServiceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/ShUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthCodeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/oauthCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/model/oauthToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthTokenMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/AuthorizeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-share/src/main/java/cn/ylchen/dao/oauthTokenDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/ShiroClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/resources/mybatis/OauthCodeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AuthCodeController.java">
+    <entry file="file://$PROJECT_DIR$/shrio-service/src/main/java/cn/ylchen/service/impl/AuthorizeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="53" />
+        <state relative-caret-position="75">
+          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20140107/json-20140107.jar!/org/json/JSONStringer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/message/types/GrantType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/OAuth.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="92" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/common/OAuth.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/client/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/client/OAuthClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="73" lean-forward="true" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/boot/ShrioWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.client/1.0.2/org.apache.oltu.oauth2.client-1.0.2.jar!/org/apache/oltu/oauth2/client/response/OAuthJSONAccessTokenResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AuthorizeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
-          <folding>
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="308" column="11" selection-start-line="308" selection-start-column="11" selection-end-line="308" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="112" column="62" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.2/org.apache.oltu.oauth2.common-1.0.2-sources.jar!/org/apache/oltu/oauth2/common/message/OAuthResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="156" column="9" lean-forward="true" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/message/OAuthResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="162" column="41" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/parameters/JSONBodyParametersApplier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/exception/OAuthSystemException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-client/src/main/java/cn/ylchen/shiro/client/AccessTokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shrio-web/src/main/java/cn/ylchen/web/api/AccessTokenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.2/org.apache.oltu.oauth2.authzserver-1.0.2.jar!/org/apache/oltu/oauth2/common/utils/JSONUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/org/json/JSONStringer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4071#4078#0" expanded="true" />
-            <element signature="e#4281#4282#0" expanded="true" />
-            <element signature="e#4310#4311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>shrio-web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3448276" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
